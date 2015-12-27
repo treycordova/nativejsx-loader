@@ -1,0 +1,32 @@
+{
+  "name": "jsxdom-loader",
+  "version": "0.0.1",
+  "description": "Webpack loader for treycordova/jsxdom.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --harmony --harmony_destructuring"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/treycordova/jsxdom-loader"
+  },
+  "keywords": [
+    "jsxdom",
+    "transpile",
+    "transpiler",
+    "webpack",
+    "loader",
+    "dom"
+  ],
+  "author": "Trey Cordova",
+  "license": "MIT",
+  "dependencies": {
+    "jsxdom": "^2.2.0",
+    "loader-utils": "^0.2.12"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "webpack": "^1.12.9"
+  }
+}
