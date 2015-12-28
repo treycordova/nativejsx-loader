@@ -1,6 +1,6 @@
 {
   "name": "jsxdom-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Webpack loader for treycordova/jsxdom.",
   "main": "index.js",
   "scripts": {
