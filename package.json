@@ -4,7 +4,7 @@
   "description": "Webpack loader for treycordova/jsxdom.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --harmony --harmony_destructuring"
+    "test": "./node_modules/.bin/mocha --harmony"
   },
   "repository": {
     "type": "git",

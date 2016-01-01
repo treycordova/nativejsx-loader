@@ -13,7 +13,7 @@ var config = {
     filename: '[id].loader.js',
   },
   module: {
-    loaders: [
+    preLoaders: [
       {
         test: /\.jsx$/,
         loader: jsxdomLoader,
@@ -35,6 +35,8 @@ describe('loader', function() {
 
         fs.readFile(path.resolve(outputDir, files[0]), {encoding: 'utf8'}, function(err, source) {
           assert.match(source, /var _a = document\.createElement\('div'\)/);
+          assert.match(source, /setAttributes/);
+          assert.match(source, /appendChildren/);
           done();
         });
       });

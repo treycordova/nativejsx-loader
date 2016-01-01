@@ -6,7 +6,7 @@ So you're using Webpack. Of course you are – have a loader.
 let config = {
   // ...
   module: {
-    loaders: [
+    preLoaders: [
       {
         test: /\.jsx$/,
         loader: 'jsxdom-loader',
@@ -19,3 +19,7 @@ let config = {
     ]
   }
 };
+```
+#### Juicy Note
+With Webpack modules, we're able to include jsxdom dependencies for you. :thumbsup:!
+(That means don't worry about `appendChildren.js` and `setAttributes.js`.)
