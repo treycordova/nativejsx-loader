@@ -22,4 +22,5 @@ let config = {
 ```
 #### Juicy Note
 With Webpack modules, we're able to include jsxdom dependencies for you. :thumbsup:!
-(That means don't worry about `appendChildren.js` and `setAttributes.js`.)
+
+*(That means don't worry about `appendChildren.js` and `setAttributes.js`.)*
