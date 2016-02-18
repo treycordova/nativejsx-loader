@@ -4,7 +4,7 @@ var webpack = require('webpack');
 var path = require('path');
 
 var outputDir = path.resolve('./test/output/loader');
-var jsxdomLoader = path.resolve('./index.js');
+var nativejsxLoader = path.resolve('./index.js');
 
 var config = {
   entry: './test/fixtures/test.jsx',
@@ -16,7 +16,7 @@ var config = {
     preLoaders: [
       {
         test: /\.jsx$/,
-        loader: jsxdomLoader,
+        loader: nativejsxLoader,
         excludes: /node_modules/,
         query: {
           variablePrefix: '_'

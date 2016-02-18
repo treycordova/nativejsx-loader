@@ -1,17 +1,18 @@
 {
-  "name": "jsxdom-loader",
+  "name": "nativejsx-loader",
   "version": "0.1.0",
-  "description": "Webpack loader for treycordova/jsxdom.",
+  "description": "Webpack loader for treycordova/nativejsx.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --harmony"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/treycordova/jsxdom-loader"
+    "url": "https://github.com/treycordova/nativejsx-loader"
   },
   "keywords": [
-    "jsxdom",
+    "jsx",
+    "nativejsx",
     "transpile",
     "transpiler",
     "webpack",
@@ -21,7 +22,7 @@
   "author": "Trey Cordova",
   "license": "MIT",
   "dependencies": {
-    "jsxdom": "^2.2.0",
+    "nativejsx": "^3.0.0",
     "loader-utils": "^0.2.12"
   },
   "devDependencies": {
