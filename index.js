@@ -6,7 +6,7 @@ module.exports = function(source) {
 
   var query = loaderUtils.parseQuery(this.query);
   var tree = [
-    "require('nativejsx/dist/jsxdom-prototypes.js');",
+    "require('nativejsx/dist/nativejsx-prototypes.js');",
     nativejsx.transpile(source, query)
   ];
 
