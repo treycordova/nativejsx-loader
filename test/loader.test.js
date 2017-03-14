@@ -37,6 +37,7 @@ describe('loader', function() {
           assert.match(source, /var _a = document\.createElement\('div'\)/);
           assert.match(source, /setAttributes/);
           assert.match(source, /appendChildren/);
+          assert.match(source, /setStyles/);
           done();
         });
       });

@@ -23,4 +23,4 @@ let config = {
 #### Juicy Note :godmode:
 With Webpack modules, we're able to include nativejsx dependencies for you.
 
-*(That means don't worry about `appendChildren.js` and `setAttributes.js`.)*
+*(That means don't worry about `appendChildren.js`, `setAttributes.js`, or `setStyles.js`.)*
