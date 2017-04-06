@@ -7,7 +7,7 @@ module.exports = function(source) {
   var query = loaderUtils.parseQuery(this.query);
   var tree = [];
 
-  if (query && (query.prototypes !== 'inline')) {
+  if (query && (query.prototypes !== 'inline') && (query.prototypes !== 'module')) {
     tree.push("require('nativejsx/dist/nativejsx-prototypes.js');");
   }
   tree.push(nativejsx.transpile(source, query));
