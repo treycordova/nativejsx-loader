@@ -22,8 +22,8 @@
   "author": "Trey Cordova",
   "license": "MIT",
   "dependencies": {
-    "nativejsx": "^4.0.0",
-    "loader-utils": "^0.2.12"
+    "loader-utils": "^2.0.0",
+    "nativejsx": "^4.0.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",
